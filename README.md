@@ -1,8 +1,9 @@
 # Real-Time Credit Scoring System
 ## Project Overview
 This project implements a real-time credit scoring system using Apache Kafka for data streaming, a pre-trained machine learning model for transaction scoring, and a MySQL database to store the results. The system is designed to process financial transaction data in real-time, score transactions for creditworthiness, and store the results for further analysis.
-
+<br>
  <a href="https://drive.google.com/file/d/1tFarsEG1i7S-sJtgZs-4uMnc9LH_lUwB/view?usp=sharing" target="_blank"> Video showing the project in action </a>
+<br>
 The process is divided into three main components:
 
 - `Producer:` Reads transaction data from a CSV file and sends it to a Kafka topic.
@@ -10,6 +11,7 @@ The process is divided into three main components:
 - `Database:` Stores the results, including a subset of transaction features, predicted credit scores, and true values for comparison.
 
 ## Structure
+```
 Real-Time-Credit-Scoring/
 ├── Data/
 │   └── final_data.csv                 # Example CSV file with transaction data
@@ -23,7 +25,7 @@ Real-Time-Credit-Scoring/
 ├── README.md                          # Project documentation (this file)
 ├── docker-compose.yml                 # Docker Compose configuration for Kafka and zookeeper
 ├── Requirements.txt 
-
+```
 ## Setup and Installation
 ### Prerequisites
 - Docker and Docker Compose
@@ -42,7 +44,7 @@ Real-Time-Credit-Scoring/
 
 ## Running the System
 1. Consumers
--`python consumer/consumer.py`
+- `python consumer/consumer.py`
 2. Producer
 - `python producer/producer.py` 
 
