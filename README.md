@@ -2,11 +2,13 @@
 ## Project Overview
 This project implements a real-time credit scoring system using Apache Kafka for data streaming, a pre-trained machine learning model for transaction scoring, and a MySQL database to store the results. The system is designed to process financial transaction data in real-time, score transactions for creditworthiness, and store the results for further analysis.
 <br>
-<br>
-<br>
+
+
+
  <a href="https://drive.google.com/file/d/1F4o9dYAY60k0HtnyrT2zD_GUGkQAPiCI/view?usp=sharing" target="_blank"> Video showing the project in action </a>
-<br>
-<br>
+
+
+
 <br>
 The process is divided into three main components:
 
